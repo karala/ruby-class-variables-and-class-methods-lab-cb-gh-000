@@ -36,7 +36,7 @@ class Song
       else
         value[array_value] = 1
       end
-      value
     end
+    value
   end
 end
