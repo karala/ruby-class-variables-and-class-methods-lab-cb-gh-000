@@ -25,6 +25,6 @@ class Song
 
   def self.genres
     @value = @@genres
-    @value
+    @value.uniq
   end
 end
