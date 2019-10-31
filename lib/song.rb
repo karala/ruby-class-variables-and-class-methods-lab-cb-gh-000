@@ -22,4 +22,9 @@ class Song
     @value = @@artists
     @value.uniq
   end
+
+  def self.genres
+    @value = @@genres
+    @value
+  end
 end
