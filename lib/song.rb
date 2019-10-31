@@ -19,6 +19,7 @@ class Song
   end
 
   def self.artists
-
+    @value = @@artists
+    @value.uniq
   end
 end
