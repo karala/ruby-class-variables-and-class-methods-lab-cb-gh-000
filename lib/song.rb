@@ -27,4 +27,16 @@ class Song
     @value = @@genres
     @value.uniq
   end
+
+  def self.genre_count
+    @value = {}
+    @@genres.each do |array_value|
+      if value[array_value] = array_value
+        value[array_value] += 1
+      else
+        value[array_value] = 1
+      end
+      value
+    end
+  end
 end
