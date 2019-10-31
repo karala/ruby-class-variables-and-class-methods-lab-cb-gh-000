@@ -37,6 +37,6 @@ class Song
         value[array_value] = 1
       end
     end
-    value
+    @value
   end
 end
