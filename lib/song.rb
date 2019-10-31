@@ -29,7 +29,7 @@ class Song
   end
 
   def self.genre_count
-    @value = {}
+    value = {}
     @@genres.each do |array_value|
       if value[array_value] = array_value
         value[array_value] += 1
@@ -37,6 +37,6 @@ class Song
         value[array_value] = 1
       end
     end
-    @value
+    value
   end
 end
